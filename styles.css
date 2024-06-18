@@ -197,11 +197,11 @@ main {
     }
 
     .search-container input, .search-container button {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 100px) {
     .search-container input {
         width: 100%;
         margin-bottom: 10px;
