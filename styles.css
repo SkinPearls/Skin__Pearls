@@ -65,6 +65,7 @@ main {
 }
 
 .option {
+    margin-bottom: 40px; /* Adjust the gap between options */
     text-align: center;
 }
 
