@@ -61,10 +61,7 @@ main {
 }
 
 .options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px; /* Adjust the gap between options */
+    text-align: center;
 }
 
 .option {
