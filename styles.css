@@ -24,7 +24,7 @@ body {
     color: #fff;
     padding:  40px;
     text-align: center;
-font-size: 30px;
+font-size: 10px;
 }
 
 .main-header h1 {
@@ -72,8 +72,8 @@ main {
 }
 
 .option img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 120px; /* Adjust as needed */
+    height: 120px; /* Adjust as needed */
 }
 
 .option h3 {
@@ -155,7 +155,7 @@ main {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    font-size: 40px;
+    font-size: 20px;
 }
 .skin-products-footer {
     background-color: #609;
