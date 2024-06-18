@@ -115,39 +115,32 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px; /* Adjust the gap between products */
+    gap: 0; /* Adjust the gap between products */
     padding: 50px;
 }
-.product-row {
+.hair-products .product-row {
     display: flex;
     justify-content: center;
-    gap: 200px; /* Adjust the gap between products */
+    gap: 10px; /* Adjust the gap between products */
     width: 100%;
     max-width: 800px; /* Adjust the max-width as needed */
 }
-.product {
+.hair-products .product {
     text-align: center;
-    width: 200px; /* Adjust the width of each product */
+    width: calc(50% - 10px); /* Adjusted width with margin space */
+    margin: 0 0 50px; /* Margin around each product */
+
+}
+.hair-products .product img {
+    width: 100px; /* Make the image fill its container */
+    height: 100px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the area without distortion */
 }
 
-.product img {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain aspect ratio */
+.hair-products .product h3 {
+    margin-top: 10px;
+    font-size: 8px;
 }
-
-.product h4 {
-    font-size: 18px; /* Adjust the font size as needed */
-    margin-top: 10px; /* Adjust the spacing above the heading */
-    margin-bottom: 5px; /* Adjust the spacing below the heading */
-    text-align: center; /* Center-align the heading */
-}
-
-.product p {
-    font-size: 5px; /* Adjust the font size for product descriptions */
-    text-align: center; /* Center-align the product descriptions */
-    line-height: 1.4; /* Adjust the line height for readability */
-}
-
 .main-footer {
     background-color: #609;
     color: #fff;
