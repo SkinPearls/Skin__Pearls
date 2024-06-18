@@ -177,13 +177,13 @@ main {
 }
 
 .search-container input {
-    padding: 0;
-    font-size: 5px;
+    padding: 0px;
+    font-size: 0px;
 }
 
 .search-container button {
-    padding: 0;
-    font-size: 5px;
+    padding: 0px;
+    font-size: 0px;
 }
 
 /* Media Queries for Responsive Design */
