@@ -64,7 +64,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px; /* Adjust the gap between options */
+    gap: 50px; /* Adjust the gap between options */
 }
 
 .option {
@@ -72,12 +72,12 @@ main {
 }
 
 .option img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
 }
 
 .option h3 {
-    font-size: 50px; /* Adjusted font size for options */
+    font-size: 30px; /* Adjusted font size for options */
 }
 
 /* Skin Products page styles */
