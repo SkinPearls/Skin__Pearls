@@ -178,12 +178,12 @@ main {
 
 .search-container input {
     padding: 5px;
-    font-size: 16px;
+    font-size: 5px;
 }
 
 .search-container button {
     padding: 5px 10px;
-    font-size: 16px;
+    font-size: 5px;
 }
 
 /* Media Queries for Responsive Design */
