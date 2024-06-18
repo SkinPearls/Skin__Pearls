@@ -177,3 +177,39 @@ main {
     padding: 5px 10px;
     font-size: 16px;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .product {
+        width: 100%; /* Make products full width on smaller screens */
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    .search-container input, .search-container button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-container button {
+        width: 100%;
+    }
+
+    header {
+        font-size: 20px;
+    }
+}
