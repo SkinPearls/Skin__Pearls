@@ -110,6 +110,21 @@ main {
     margin-top: 10px;
     font-size: 8px;
 }
+.contact-button {
+    background-color: #609; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Button padding */
+    font-size: 8px; /* Button font size */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    
+}
+
+.contact-button:hover {
+    background-color: #805; /* Button background color on hover */
+}
 /* hair Products page styles */
 .hair-products {
     display: flex;
